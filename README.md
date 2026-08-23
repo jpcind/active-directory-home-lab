@@ -175,3 +175,55 @@ Testing confirmed that the Windows 11 clients could locate the domain controller
 * IPv4 network configuration
 * Network troubleshooting
 * Virtual machine networking
+
+## Verification Screenshots
+
+### Active Directory Users and OUs
+
+**Engineering OU**
+
+![Engineering Users](screenshots/AD%20-%20Engineering.png)
+
+**Finance OU**
+
+![Finance Users](screenshots/AD%20-%20Finance.png)
+
+### Security Group
+
+![Security Groups](screenshots/AD%20-%20Groups.png)
+
+### Active Directory Lab Overview
+
+![AD Home Deployment](screenshots/AD%20Home%20Deployment.png)
+
+### Active Directory SRV Record Verification
+
+![AD SRV Records](screenshots/ad%20srv%20records.png)
+
+### Client Network Configuration
+
+![Client IP Configuration](screenshots/client%20ip%20config.png)
+
+### DNS Manager
+
+![DNS Manager Zone](screenshots/dns%20manager%20zone.png)
+
+### DNS Resolution
+
+![DNS Resolution](screenshots/dns%20resolution.png)
+
+### Additional DNS Verification
+
+![DNS Resolution Additional](screenshots/dns%20resolution%20%282%29.png)
+
+### Domain User Authentication
+
+![Domain Authentication](screenshots/domain%20authentication.png)
+
+### Group Policy Enforcement
+
+![Engineering Control Panel Disabled](screenshots/engineering%20control%20panel%20disabled.png)
+
+### Group Policy Configuration
+
+![GPO Control Panel Disabled](screenshots/gpo%20control%20panel%20disabled.png)
