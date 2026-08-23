@@ -30,7 +30,8 @@ The lab includes:
 
 ## Network Diagram
 
-![Active Directory Home Lab Network Diagram](Active%20Directory%20Home%20Lab.png)
+<img width="1536" height="1024" alt="AD Home Deployment" src="https://github.com/user-attachments/assets/b916a2f2-1e16-4d63-95ae-a664a4564e7c" />
+
 
 ## Active Directory Structure
 
