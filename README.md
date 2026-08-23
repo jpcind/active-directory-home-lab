@@ -33,6 +33,26 @@ Clients:
 - Delta-LabAdmin
 - Echo-LabAdmin
 
+## Lab Architecture
+
+The lab was built using Oracle VirtualBox and consists of one Windows Server domain controller and three Windows 11 domain-joined client machines.
+
+### Domain Controller
+- Hostname: DC01
+- Domain: homelab.test
+- Roles:
+  - Active Directory Domain Services
+  - DNS
+  - DHCP
+  - Group Policy Management
+
+### Client Machines
+- Charlie-LabAdmin
+- Delta-LabAdmin
+- Echo-LabAdmin
+
+All Windows 11 clients were joined to the homelab.test domain and configured to use the domain controller for DNS resolution.
+
 ## Technologies
 
 - Windows Server
