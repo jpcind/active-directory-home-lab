@@ -33,6 +33,10 @@ Clients:
 - Delta-LabAdmin
 - Echo-LabAdmin
 
+## Network Diagram
+
+![Active Directory Home Lab Network Diagram](Active%20Directory%20Home%20Lab.png)
+
 ## Lab Architecture
 
 The lab was built using Oracle VirtualBox and consists of one Windows Server domain controller and three Windows 11 domain-joined client machines.
