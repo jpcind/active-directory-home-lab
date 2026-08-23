@@ -231,3 +231,13 @@ Testing confirmed that the Windows 11 clients could locate the domain controller
 - Troubleshot IPv4 and IPv6 DNS behavior to ensure Active Directory name resolution was directed to DC01.
 - Verified Active Directory service discovery by querying LDAP SRV records with `nslookup`.
 - Tested and verified Group Policy enforcement by applying a policy to the Engineering OU and confirming the restriction on a domain client.
+
+## Project Outcomes
+
+- Deployed and administered an Active Directory domain using Windows Server.
+- Joined three Windows 11 client machines to the `homelab.test` domain.
+- Configured and verified DNS for Active Directory name resolution and service discovery.
+- Organized users using Organizational Units and security groups.
+- Created and linked Group Policy to the Engineering OU and verified policy enforcement on a client machine.
+- Troubleshot client networking, DNS configuration, and VirtualBox network connectivity.
+- Verified domain authentication and Active Directory SRV records using Windows command-line tools.
