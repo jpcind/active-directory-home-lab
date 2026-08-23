@@ -223,3 +223,11 @@ Testing confirmed that the Windows 11 clients could locate the domain controller
 ### Group Policy Configuration
 
 ![GPO Control Panel Disabled](screenshots/gpo%20control%20panel%20disabled.png)
+
+## Troubleshooting
+
+- Resolved DNS configuration issues by verifying that domain clients were using DC01 as their DNS server.
+- Changed VirtualBox client networking from NAT to Bridged Adapter mode to allow proper communication with the domain controller on the local network.
+- Troubleshot IPv4 and IPv6 DNS behavior to ensure Active Directory name resolution was directed to DC01.
+- Verified Active Directory service discovery by querying LDAP SRV records with `nslookup`.
+- Tested and verified Group Policy enforcement by applying a policy to the Engineering OU and confirming the restriction on a domain client.
