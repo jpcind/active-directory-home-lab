@@ -176,7 +176,7 @@ Testing confirmed that the Windows 11 clients could locate the domain controller
 * Network troubleshooting
 * Virtual machine networking
 
-## Verification Screenshots
+## Screenshots
 
 ### Active Directory Users and OUs
 
@@ -191,10 +191,6 @@ Testing confirmed that the Windows 11 clients could locate the domain controller
 ### Security Group
 
 ![Security Groups](screenshots/AD%20-%20Groups.png)
-
-### Active Directory Lab Overview
-
-![AD Home Deployment](screenshots/AD%20Home%20Deployment.png)
 
 ### Active Directory SRV Record Verification
 
