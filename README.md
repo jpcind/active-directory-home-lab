@@ -41,6 +41,19 @@ Clients:
 
 The Active Directory environment was organized using Organizational Units (OUs), domain users, and security groups.
 
+## DNS Configuration
+
+DNS was configured on the domain controller to support Active Directory name resolution and domain services.
+
+- DC01 hosts the DNS service for the `homelab.test` domain.
+- Domain-joined Windows 11 clients were configured to use DC01 as their DNS server.
+- DNS resolution was verified using `nslookup`.
+- Active Directory DNS service records were verified to confirm that clients could locate the domain controller.
+- DNS and connectivity issues were troubleshot using tools such as:
+  - `ipconfig /all`
+  - `nslookup`
+  - `ping`
+
 ### Organizational Units
 
 - Employees
