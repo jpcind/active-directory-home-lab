@@ -37,6 +37,29 @@ Clients:
 
 ![Active Directory Home Lab Network Diagram](Active%20Directory%20Home%20Lab.png)
 
+## Active Directory Structure
+
+The Active Directory environment was organized using Organizational Units (OUs), domain users, and security groups.
+
+### Organizational Units
+
+- Employees
+  - Engineering
+  - Finance
+- Groups
+
+### Domain Users
+
+- Charlie User
+- Delta User
+- Echo User
+
+### Security Groups
+
+- Leads-Users
+
+The OU structure was used to organize users by department and prepare the environment for department-specific Group Policy configuration.
+
 ## Lab Architecture
 
 The lab was built using Oracle VirtualBox and consists of one Windows Server domain controller and three Windows 11 domain-joined client machines.
